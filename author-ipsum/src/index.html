@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      body,
+      html {
+        font-family: "Segoe UI", "Roboto", serif, sans-serif;
+        height: 100%;
+        margin: 0;
+      }
+
+      #root {
+        height: 100%;
+        width: 100%;
+      }
+
+      input::-ms-clear,
+      input::-ms-reveal {
+        height: 28px;
+        width: 28px;
+      }
+
+      @media print {
+        body {
+          overflow: visible;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
